@@ -1,6 +1,6 @@
 # ignite-reactjs
 
-## Fundamentos do React
+## Fundamentos do React 30/06/2023
 
 - O que é o react?
 
@@ -79,4 +79,22 @@ Com os componentes podemos reaproveitar HTML,estilos, funcionalidades e dando at
 
 ## Explicar exportação
 
+Em react temos 2 tipos de exportação
+
 ## explicar o porque componentes precisam ser com H
+
+Componentes são criados com a letra Maiscula para que não sejam confundidas com tags HTML, então por convensão criamos componentes com letras maisculas.
+
+```js:
+
+
+export funtion Header(){
+
+// faz algo aqui
+
+}
+
+
+```
+
+# Css Modules 01/06/2023
