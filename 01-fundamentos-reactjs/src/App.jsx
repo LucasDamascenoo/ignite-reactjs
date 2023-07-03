@@ -6,6 +6,7 @@ import "./styles/styles.css";
 function App() {
   return (
     <div>
+      <Header />
       <Post autor="LucasDamasceno" content="post1" />
       <Post autor="Tatiane" content="post2" />
 

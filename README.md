@@ -83,7 +83,7 @@ Em react temos 2 tipos de exportação
 
 ## explicar o porque componentes precisam ser com H
 
-Componentes são criados com a letra Maiscula para que não sejam confundidas com tags HTML, então por convensão criamos componentes com letras maisculas.
+Componentes são criados com a letra Maiscula para que não sejam confundidas com tags/elementos HTML, então por convensão criamos componentes com a primeira letra maisculas.
 
 ```js:
 
@@ -98,3 +98,27 @@ export funtion Header(){
 ```
 
 # Css Modules 01/06/2023
+
+- Scoped Css
+
+Scoped Css é quando não queremos que uma estilização de um determinado componente afete outros componentes, para isso podemos usar o CSS modules.
+
+- Css Modules
+
+Quando criamos um um css modules sempre precisamos dar um nome(alias) que por conversão chamados de Styles.
+
+Essa css vira um objeto que pode ser acessado em qualquer parte do nosso código.
+
+Para trazer essa estilização para nosso comporte usamos : **ClassName={style.main}** **main: é a classe que incluimos no css**
+
+```js:
+
+//sintax
+
+//Header.module.css (forma de criar o css)
+
+import styles "./teste.module.css" // forma de como importar o module.css
+
+<header className={style.main}> < header/>
+
+```
