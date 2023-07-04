@@ -122,3 +122,9 @@ import styles "./teste.module.css" // forma de como importar o module.css
 <header className={style.main}> < header/>
 
 ```
+
+# Criação de componente: Header 03/06/2023
+
+- Fizemos um css global com todas as modificação e criação de variaveis.
+
+- Adicionamos a Imagem no componente (Header), lembrando que toda vez que adicionarmos um variavel dentro de uma tag, precisamos chama com {nome que demos ao importar}
