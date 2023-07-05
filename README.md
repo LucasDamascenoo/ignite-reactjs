@@ -69,7 +69,11 @@ Nessa função (já criada pelo proprio react) cria um elemento root ( nossa div
 
 componentes é a "divisao" de partes do nossa aplicação web, onde cada parte é um componente separado.Podemos ter um componentes dentro de componente como por exemplo ( header > nav) onde o header é um componente e o nav é outro.
 
-Componentes são funções que retornam HTML ( por isso o .jsx (HTMl + js)) todos os componentes precisam dessa extenção
+Componentes são funções que retornam HTML ( por isso o .jsx (HTMl + js)) todos os componentes precisam dessa extenção.
+
+Separar nosso codigo em componentes ajuda na manutenção, na legibilidade do código e possibilita a reutilização dos componentes em outras partes da aplicação.
+
+Com isso somos capazes de criar SPA (Single page application) que é um unico index HTML e "multiplas" páginas onde estão sendo redenrizadas pelo React.
 
 ## O que são as propriedades?
 
