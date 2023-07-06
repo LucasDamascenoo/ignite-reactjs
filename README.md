@@ -83,7 +83,9 @@ Com os componentes podemos reaproveitar HTML,estilos, funcionalidades e dando at
 
 ## Explicar exportação
 
-Em react temos 2 tipos de exportação
+No reac temos dois tipos de importação ;
+
+- Export default "./alguarquivo"
 
 ## explicar o porque componentes precisam ser com H
 
