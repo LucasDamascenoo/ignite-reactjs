@@ -85,6 +85,12 @@ Com os componentes podemos reaproveitar HTML,estilos, funcionalidades e dando at
 
 No reac temos dois tipos de importação ;
 
+- Named Export
+
+- Default export
+
+https://www.youtube.com/watch?v=XMi9L3cxy-E&t=1s&ab_channel=DevJuniorAlves
+
 - Export default "./alguarquivo"
 
 ## explicar o porque componentes precisam ser com H
